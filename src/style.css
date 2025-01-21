@@ -6,7 +6,7 @@
 /* 80, 60, 58, 48, 24 */
 
 body {
-  @apply font-roboto;
+  @apply font-roboto text-lg;
 }
 
 header {
@@ -14,23 +14,23 @@ header {
 }
 
 h1 {
-  @apply !leading-[122.5%] text-3xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-5xl 2xl:text-6xl font-medium font-poppins; /* 80px for large screens */
+  @apply !leading-[122.5%] text-3xl xs:text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-5xl 2xl:text-6xl font-semibold font-poppins; /* 80px for large screens */
 }
 
 h2 {
-  @apply !leading-[122.5%] text-3xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-6xl 2xl:text-7xl font-medium font-poppins; /* 60px for large screens */
+  @apply !leading-[122.5%] text-3xl xs:text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-6xl 2xl:text-7xl font-semibold font-poppins; /* 60px for large screens */
 }
 
 h3 {
-  @apply !leading-[122.5%] text-2xl xs:text-2xl sm:text-3xl md:text-4xl lg:text-[3.6rem] xl:text-[2.75rem] 2xl:text-[3.625rem] font-medium font-poppins; /* 58px for large screens */
+  @apply !leading-[122.5%] text-2xl xs:text-2xl sm:text-3xl md:text-4xl lg:text-[3.6rem] xl:text-[2.75rem] 2xl:text-[3.625rem] font-semibold font-poppins; /* 58px for large screens */
 }
 
 h4 {
-  @apply !leading-[122.5%] text-xl xs:text-xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-medium font-poppins; /* 48px for large screens */
+  @apply !leading-[122.5%] text-xl xs:text-xl sm:text-2xl md:text-3xl lg:text-3xl xl:text-4xl 2xl:text-5xl font-semibold font-poppins; /* 48px for large screens */
 }
 
 h5 {
-  @apply !leading-[122.5%] text-lg xs:text-lg sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl 2xl:text-2xl font-medium font-poppins; /* 24px for large screens */
+  @apply !leading-[122.5%] text-lg xs:text-lg sm:text-xl md:text-2xl lg:text-2xl xl:text-2xl 2xl:text-2xl font-semibold font-poppins; /* 24px for large screens */
 }
 
 /* Base Button Styles */
